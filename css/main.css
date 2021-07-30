@@ -138,7 +138,8 @@ main section.people {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;
-  grid-gap: 10px;
+  grid-gap: 20px;
+  grid-row-gap: 20px;
 }
 @media screen and (max-width: 980px) {
   main section.people {
@@ -153,6 +154,9 @@ main section.people {
 main section.people .card {
   width: 100%;
   background-color: white;
+}
+main section.people .card p {
+  padding: 10px 0;
 }
 main section.people .card:hover {
   transform: scale(1.05);

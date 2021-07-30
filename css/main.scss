@@ -135,7 +135,8 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    grid-gap: 10px;
+    grid-gap: 20px;
+    grid-row-gap: 20px;
     @include media-max(980px) {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -145,6 +146,9 @@ main {
     .card {
       width: 100%;
       background-color: white;
+      p {
+        padding: 10px 0;
+      }
       &:hover {
         transform: scale(1.05);
       }
