@@ -28,7 +28,3 @@ const getMonth = (month) => {
 }
 
 console.log(getMonth(5));
-
-for (let index = 1; index <= 31; index++) {
-  console.log(getDate(index));
-}
