@@ -32,7 +32,9 @@ const createPersonCard = (person) => {
   let emailP = document.createElement("p");
   emailP.textContent = email;
 
-  let dob = new Date(person.dob.date).toLocaleDateString();
+  let date = new Date(person.dob.date);
+
+  let dob = `${getDate(date.getDate())} ${getMonth(date.getMonth())} ${date.getFullYear()}`;
   let dobP = document.createElement("p");
   dobP.textContent = dob;
 

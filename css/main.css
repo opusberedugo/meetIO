@@ -157,7 +157,10 @@ main section.people .card {
   background-color: white;
 }
 main section.people .card p {
-  padding: 10px 0;
+  padding: 5px 0;
+}
+main section.people .card p:nth-of-type(3) {
+  text-transform: capitalize;
 }
 main section.people .card:hover {
   transform: scale(1.05);
