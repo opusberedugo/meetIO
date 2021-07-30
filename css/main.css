@@ -127,7 +127,7 @@ header .button-row a:hover {
 }
 
 main {
-  padding: 5%;
+  padding: 5% 15%;
 }
 main p.lead {
   font-size: 3.5em;
@@ -164,6 +164,7 @@ main section.people .card:hover {
 main section.people .card .image-div {
   height: 250px;
   overflow: hidden;
+  border-radius: 20px;
 }
 @media screen and (max-width: 650px) {
   main section.people .card .image-div {

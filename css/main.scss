@@ -125,7 +125,7 @@ header {
 }
 
 main {
-  padding: 5%;
+  padding: 5% 15%;
   p.lead {
     font-size: 3.5em;
     text-transform: uppercase;
@@ -155,6 +155,7 @@ main {
       .image-div {
         height: 250px;
         overflow: hidden;
+        border-radius: 20px;
         @include media-max(650px) {
           height: fit-content;
         }
