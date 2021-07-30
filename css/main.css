@@ -152,6 +152,7 @@ main section.people {
   }
 }
 main section.people .card {
+  cursor: pointer;
   width: 100%;
   background-color: white;
 }
